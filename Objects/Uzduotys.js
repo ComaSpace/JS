@@ -148,7 +148,48 @@ console.log('-----------------');
 
 // 9.     Dinaminis Objekto Sudarymas: Naudodami for ciklą, sukurti objektą, kurio
 //  raktai yra skaičiai nuo 1 iki n, o reikšmės - tie skaičiai pakelti kvadratu.
+
+function DynamicOb(n) {
+    const x = {};
+    for (let i = 1; i <= n; i++) {
+        x[i] = i * i;
+    }
+    return x;
+}
+
+const n = 5;
+console.log(DynamicOb(n));
+
+
+console.log('--------------------');
+
+
 // 10.  Sąlyginės Reikšmės Objekte: Turite objektą, kuriame saugomos įvairios vartotojų
 // savybės(pvz., vardas, amžius, miestas).Sukurkite funkciją, kuri naudojant for in
 // ciklą, pakeistų tam tikrų savybių reikšmes, jeigu jos tenkina nurodytą sąlygą
 // (pvz., jeigu vartotojo amžius yra mažesnis nei 18, pridėkite savybę pilnametis: false).
+
+
+function modifyUserProperties(users, condition) {
+    for (let user in users) {
+        if (users.hasOwnProperty(user)) {
+            if (condition(user)) {
+                users[user].pilnametis = false;
+            }
+        }
+    }
+    return users;
+}
+
+const users = {
+    user1: { vardas: 'Jonas', amzius: 25, miestas: 'Vilnius' },
+    user2: { vardas: 'Tomas', amzius: 16, miestas: 'Kaunas' },
+    user3: { vardas: 'Karolina', amzius: 20, miestas: 'Klaipėda' }
+};
+
+function condition(user) {
+    return users[user].amzius < 18;
+}
+
+const modifiedUsers = modifyUserProperties(users, condition);
+console.log(modifiedUsers);
