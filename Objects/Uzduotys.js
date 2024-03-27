@@ -74,7 +74,14 @@ console.log('------------------');
 // funkciją, kuri naudojant for in ciklą, grąžina naują objektą, kuriame yra tik tas
 // savybės, kurios tenkina tam tikrą sąlygą.
 
-
+/*
+const newArray = Object.keys(prekesEur).map((key) => [key, prekesEur[key]]);
+ 
+console.log(newArray);
+ 
+const newArray = Object.entries(prekesEur);
+console.log(newArray);
+*/
 
 
 
