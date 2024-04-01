@@ -1,0 +1,12 @@
+1. Užduotis
+Sukurkite aplikaciją kuri būtų skirta darbuotojų sąrašui išsaugoti. 
+Kiekvieno darbuotojo įrašą turi sudaryti tokie duomenys:
+vardas, pavardė atlyginimas.
+
+Padarykite aplikaciją kurioje galėtumėme įvesti vardą, pavardę ir atlyginimą. 
+Pridėjus įrašą jis turėtų būti atvaizduojamas sąraše dešinėje. 
+Padarykite galimybę ištrinti vieną įrašą ir visus įrašus vienu metu.
+ Išsaugokite duomenis į localstorage ir atvaizduokite tinklapyje. 
+
+Papildomai
+Suskaičiuokite visų atlyginimų sumą ir vidurkį ir išveskite žemiau, po sąrašu.
