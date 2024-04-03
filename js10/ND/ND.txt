@@ -1,0 +1,4 @@
+Sukurkite chronometro aplikaciją. Aplikacija turi turėti tris mygtukus: 
+Pradėti, Stabdyti ir Pradėti iš naujo.
+
+
