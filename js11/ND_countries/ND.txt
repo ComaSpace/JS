@@ -1,0 +1,11 @@
+Sukurkite aplikaciją kuri galėtų parodyti informaciją apie šalis. 
+Darbui jums reikės šalių API kuris yra čia: https://restcountries.com/#endpoints-translation
+
+Jūsų aplikacijoje turėtų būti galimybė įvesti norimos šalies pavadinimą ir aplikacija turėtų išvesti:
+1. Šalies pavadinimą,
+2. Populiaciją
+3. Šalies plotą
+4. Valiutą
+5. Kalbą
+6. Vėliavą
+7. Herbą
