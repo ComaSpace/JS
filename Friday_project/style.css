@@ -175,7 +175,7 @@ header {
 .howHelpContainer {
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 50%;
     align-items: flex-start;
     margin-top: 8rem;
 }
