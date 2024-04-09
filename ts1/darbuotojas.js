@@ -1,4 +1,3 @@
-
 "use strict";
 /*
 Modifikatoriai: public, private, protected
